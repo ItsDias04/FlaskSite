@@ -10,7 +10,7 @@ import os
 from myconfig import data_config
 
 app = Flask(__name__, static_url_path='')
-app.secret_key = "_SuperAdmin_"
+app.secret_key = "*"
 
 with app.test_request_context():
 
