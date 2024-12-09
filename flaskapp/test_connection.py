@@ -15,4 +15,4 @@ def create_connection(host_name, user_name, user_password):
 
     return connection
 
-connection = create_connection("localhost", "root", "SuperAdmin")
+connection = create_connection("localhost", "root", "secret")
